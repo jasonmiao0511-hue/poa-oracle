@@ -47,6 +47,7 @@ _ANTIQUITY = {
     "sparc": "exotic", "mips": "exotic", "riscv": "exotic",
     "retro": "retro-x86", "pentium4": "retro-x86", "core2": "retro-x86",
     "apple_silicon": "modern-arm", "aarch64": "modern-arm",
+    "m1": "modern-arm", "m2": "modern-arm", "m3": "modern-arm", "m4": "modern-arm",
     "modern": "modern-x86", "x86_64": "modern-x86", "x86": "modern-x86",
 }
 
