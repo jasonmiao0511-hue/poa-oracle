@@ -40,9 +40,10 @@ re-publishes the verdict. It does **not** run inside, write to, or modify the
 consensus node. Run it next to the node:
 
 ```bash
-pip install cryptography
-python3 oracle.py --db /root/rustchain/rustchain_v2.db --port 8097
-# nginx: proxy /oracle/ -> 127.0.0.1:8097
+pip install poa-oracle cryptography
+poa-oracle --db /root/rustchain/rustchain_v2.db --port 8076
+# nginx: proxy /oracle/ -> 127.0.0.1:8076
+# (or from a checkout: python3 oracle.py --db ... --port 8076)
 ```
 
 ## Honest status
